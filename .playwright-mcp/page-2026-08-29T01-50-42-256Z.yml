@@ -1,0 +1,40 @@
+- generic [active] [ref=f1e1]:
+  - button "Open Next.js Dev Tools" [ref=f1e132] [cursor=pointer]
+  - alert [ref=f1e136]
+  - generic [ref=f1e139]:
+    - generic [ref=f1e140]:
+      - generic [ref=f1e141]: "N"
+      - heading "Start Your Journey" [level=1] [ref=f1e143]
+      - paragraph [ref=f1e144]: Create your account and begin the 60-day transformation
+    - generic [ref=f1e145]:
+      - generic [ref=f1e146]:
+        - generic [ref=f1e147]: Name
+        - textbox "Name" [ref=f1e152]:
+          - /placeholder: Your name
+      - generic [ref=f1e153]:
+        - generic [ref=f1e154]: Email
+        - textbox "Email" [ref=f1e159]:
+          - /placeholder: your@email.com
+      - generic [ref=f1e160]:
+        - generic [ref=f1e161]: Password
+        - generic [ref=f1e162]:
+          - textbox "Password" [ref=f1e166]:
+            - /placeholder: At least 6 characters
+          - button [ref=f1e167]
+      - generic [ref=f1e171]:
+        - generic [ref=f1e172]: Confirm Password
+        - textbox "Confirm Password" [ref=f1e177]:
+          - /placeholder: Repeat your password
+      - button "Create Account" [ref=f1e178] [cursor=pointer]
+    - generic [ref=f1e179]: Or continue with
+    - generic [ref=f1e184]:
+      - paragraph [ref=f1e186]: Get a magic link sent to your email — no password needed
+      - generic [ref=f1e187]:
+        - generic [ref=f1e188]: Email
+        - textbox "Email" [ref=f1e193]:
+          - /placeholder: your@email.com
+      - button "Send Magic Link" [ref=f1e194] [cursor=pointer]
+    - paragraph [ref=f1e200]:
+      - text: Already have an account?
+      - link "Sign in" [ref=f1e201] [cursor=pointer]:
+        - /url: /auth/signin

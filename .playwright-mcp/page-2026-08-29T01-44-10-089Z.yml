@@ -1,0 +1,68 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]: Nutmeg
+        - generic [ref=e6]:
+          - link "Sign In" [ref=e7] [cursor=pointer]:
+            - /url: /auth/signin
+          - button "Get Started" [ref=e8] [cursor=pointer]
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]: 60-Day Football Training Program
+        - heading "Nutmeg" [level=1] [ref=e15]
+        - paragraph [ref=e16]: Master football in 60 days. Solo or with friends. AI-powered coaching, live co-op sessions, and a curriculum built from real coaching science.
+        - paragraph [ref=e17]: Train like a pro. Progress like a champion. Your journey starts now.
+        - generic [ref=e18]:
+          - button "Start Your Journey" [ref=e19] [cursor=pointer]
+          - button "Join a Team" [ref=e20] [cursor=pointer]
+        - generic [ref=e21]:
+          - generic [ref=e22]: Free forever — no credit card
+          - generic [ref=e25]: Works offline
+          - generic [ref=e28]: AI Coach included
+      - generic: Scroll to explore
+    - region [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - text: Features
+          - heading "Everything you need to train smarter" [level=2] [ref=e35]
+          - paragraph [ref=e36]: Four pillars designed for the modern footballer. No fluff, no gimmicks — just what works.
+        - generic [ref=e37]:
+          - generic [ref=e39] [cursor=pointer]:
+            - heading "AI Coach" [level=3] [ref=e49]
+            - paragraph [ref=e50]: Personalized guidance powered by RAG. Your coach knows the curriculum, your progress, and adapts in real-time.
+          - generic [ref=e52] [cursor=pointer]:
+            - heading "Live Co-op Sessions" [level=3] [ref=e59]
+            - paragraph [ref=e60]: Train with friends in real-time. Synced timers, shared progress, and team accountability — no lag.
+          - generic [ref=e62] [cursor=pointer]:
+            - heading "60-Day Curriculum" [level=3] [ref=e68]
+            - paragraph [ref=e69]: 8 milestones across skills, fitness, tactics, nutrition & mental game. Research-backed, position-specific.
+          - generic [ref=e71] [cursor=pointer]:
+            - heading "Progress Tracking" [level=3] [ref=e76]
+            - paragraph [ref=e77]: Dual-ring progress, streak counters, fitness retests, and session summaries. Visual proof of growth.
+    - region [ref=e78]:
+      - generic [ref=e80]:
+        - generic [ref=e88]:
+          - generic [ref=e89]: "60"
+          - generic [ref=e90]: Days
+        - generic [ref=e98]:
+          - generic [ref=e99]: "8"
+          - generic [ref=e100]: Milestones
+        - generic [ref=e108]:
+          - generic [ref=e109]: 100%
+          - generic [ref=e110]: Live Co-op
+    - region [ref=e111]:
+      - generic [ref=e113]:
+        - heading "Ready to start your 60-day transformation?" [level=2] [ref=e114]
+        - paragraph [ref=e115]: Join thousands of footballers training smarter. Free forever. No credit card required.
+        - generic [ref=e116]:
+          - button "Create Free Account" [ref=e117] [cursor=pointer]
+          - button "Already have an account? Sign in" [ref=e118] [cursor=pointer]
+    - contentinfo [ref=e119]:
+      - generic [ref=e121]:
+        - generic [ref=e122]: Nutmeg
+        - navigation [ref=e123]:
+          - button "Get Started" [ref=e124] [cursor=pointer]
+          - button "Sign In" [ref=e125] [cursor=pointer]
+        - paragraph [ref=e126]: © 2026 Nutmeg. Built for footballers, by footballers.
+  - button "Open Next.js Dev Tools" [ref=e132] [cursor=pointer]

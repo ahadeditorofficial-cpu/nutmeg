@@ -1,0 +1,31 @@
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7E7CE"/>
+      <stop offset="25%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#C9B037"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="192" height="192" rx="32" fill="url(#bgGradient)"/>
+  <circle cx="96" cy="96" r="64" fill="none" stroke="url(#goldGradient)" stroke-width="4" filter="url(#glow)"/>
+  <path d="M96 52 C75 52 58 69 58 90 C58 111 75 128 96 128 C117 128 134 111 134 90 C134 69 117 52 96 52 Z"
+        fill="none" stroke="url(#goldGradient)" stroke-width="3" filter="url(#glow)"/>
+  <ellipse cx="96" cy="96" rx="28" ry="16" fill="url(#goldGradient)" opacity="0.9"/>
+  <ellipse cx="96" cy="96" rx="22" ry="12" fill="#000000"/>
+  <ellipse cx="96" cy="92" rx="18" ry="10" fill="url(#goldGradient)"/>
+  <ellipse cx="96" cy="90" rx="12" ry="7" fill="#000000"/>
+  <ellipse cx="96" cy="90" rx="8" ry="5" fill="url(#goldGradient)"/>
+  <text x="96" y="160" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="url(#goldGradient)">NUTMEG</text>
+</svg>
